@@ -1,0 +1,9 @@
+/application/cache/*
+/application/logs/*
+/application/config/config.php
+/application/config/database.php
+/vendor/
+.env
+*.bak
+*.swp
+*.log

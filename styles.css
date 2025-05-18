@@ -1,0 +1,95 @@
+:root {
+    --c0: #202020; /* var(--c0) */
+    --c1: #444C29; /* var(--c1) */
+    --c2: #6F732F; /* var(--c2) */
+    --c3: #cdd5ae; /* var(--c3) */
+    --c4: #F5F6F0; /* var(--c4) */
+}
+/* como acceder a los colores: var(--c_) */
+
+body{
+    overflow-x: hidden;
+    font-family: 'Outfit';
+}
+.menu-view, .green {
+    background-color: var(--c3);
+}
+.ajust-height {
+    /* ajusta la altura a los formularios */
+    height: calc(100vh - 100px);
+}
+
+.b-solo{
+    border: 1px solid rgba(68, 76, 41, 0.678) ;
+}
+.dark{
+    color: var(--c0);
+}
+.txt{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.a-green {
+    text-decoration: none;
+    font-size: small;
+    color: var(--c1);
+    font-weight: bold;
+    transition-duration: 2s;
+}
+.a-green:hover {
+    color: var(--c2);
+}
+
+.btn-green {
+    background-color: var(--c3);
+}
+.btn-green:hover {
+    background-color: var(--c2);
+    color: var(--c3);
+}
+
+.nav-link-green {
+    color: var(--c2);
+}
+.nav-link-green:hover {
+    color: var(--c1);
+}
+
+.text-error {
+    color: rgb(192, 94, 94);
+    font-size: small;
+    font-weight: bold;
+}
+
+/* Formularios bootstrap personalizados */
+.form-control:focus {
+  border-color: var(--c2);
+  box-shadow: 0 0 0 0.25rem var(--c3);
+}
+
+.form-label, .dark-green {
+  color: var(--c1);
+}
+
+.toast-green {
+    background-color: var(--c3);
+    color: var(--c1);
+}
+
+.card-text {
+    color: var(--c1);
+    font-weight: bold;
+    text-decoration: none;
+}
+.subtext {
+    font-size: small;
+    color: var(--c0);
+    opacity: 75%;
+}
+.card-v{
+    color:#7d995c;
+}
+.card-f{
+    color: rgb(153, 153, 153);
+}
