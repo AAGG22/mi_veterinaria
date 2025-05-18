@@ -10,4 +10,5 @@ Aplicación web que permitE realizar altas, bajas, modificaciones y mostrar info
 ### Relación veterinario-mascota:
 - Un veterinario puede atender a múltiples mascotas.
 - Una mascota puede ser o haber sido atendida por más de un veterinario.
-- ![bd Mi Veterinaria](assets/logo.png)
+### Estructura Base de Datos
+![bd Mi Veterinaria](img/bd_miVeterinaria.png)
